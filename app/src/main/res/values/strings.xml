@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UCSY Result</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="string_roll_no">ခံုအမွတ္</string>
+    <string name="string_name">အမည္</string>
+    <string name="string_major">အထူးျပဳဘာသာရပ္</string>
+    <string name="string_year">ခုႏွစ္</string>
+
+    <string name="string_Sorry_detail">စိတ္ေအးေအးထားပါ။
+မိတ္ေဆြရဲ့ Roll Number ကို Exam Database ထဲမွာ ရွာလုိ႔မေတြ႔ဘူး။
+မိတ္ေဆြ စာေမးပြဲ က်တာလဲ ျဖစ္ႏိုင္သလို
+က်ေနာ္တုိ႔ Data Entry လုပ္တုန္းက ေမ့က်န္ခဲ့တာလဲ ျဖစ္ႏိုင္ပါတယ္။
+ပိုျပီးေသခ်ာေအာင္ UCSY ရဲ့ Official Website ကို သြားၾကည့္လုိက္ပါ။</string>
+
+    <string name="string_required_validator">ဘာလား ဘာမွမပါဘဲနဲ႔ ရွာလို႔ရဘူးေလ </string>
+
+</resources>

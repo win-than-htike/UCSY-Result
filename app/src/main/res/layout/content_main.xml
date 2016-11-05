@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="xyz.winthan.ucsyresult.MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/et_roll_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:inputType="number"
+            android:hint="Roll Number ကိုEng လိုရိုက္ပါ"
+            android:singleLine="true"
+            android:textSize="18dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="Roll Number ကိုEng လိုရိုက္ပါ" />
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/et_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:inputType="number"
+            android:hint="Enter Year (Eg. Enter 1 or 2 or 3 ...)"
+            android:singleLine="true"
+            android:textSize="18dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="Enter Year (Eg. Enter 1 or 2 or 3 ...)" />
+
+        <CheckBox
+            android:id="@+id/cb_external"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:text="External?"/>
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Result"
+            android:background="#00BCD4"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
